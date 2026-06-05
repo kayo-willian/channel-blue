@@ -1,4 +1,4 @@
-# 🌊 Clean It Up!: Channel Blue
+# 🌊 Clean It Up! : Channel Blue
 
 🕹️ **[Jogar agora no navegador](https://gd.games/kayozkx/clean-it-up)**
 
