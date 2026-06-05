@@ -1,13 +1,10 @@
-# Clean It Up! : Channel Blue
-Jogo educacional 2D top-down no GDevelop 5 com 3 fases em ecossistemas aquáticos. Predadores com IA, correnteza, obstáculos perseguidores, cronômetro, HUD completo e joystick virtual para mobile. Tema: conscientização ambiental.
-
 # 🌊 Clean It Up!: Channel Blue
 
 🕹️ **[Jogar agora no navegador](https://gd.games/kayozkx/clean-it-up)**
 
-Jogo educacional 2D top-down desenvolvido no GDevelop 5 inicialmente como trabalho acadêmico do curso de Licenciatura Informática da UFOPA
+Jogo educacional 2D top-down desenvolvido no GDevelop 5
 
-> Desenvolvido de Maio a Junho de2026.
+> Desenvolvido de Maio a Junho de 2026.
 
 ---
 
@@ -112,10 +109,10 @@ channel-blue/
 ### PC
 | Tecla | Ação |
 |-------|------|
-| W / ↑ | Mover para cima |
-| S / ↓ | Mover para baixo |
-| A / ← | Mover para esquerda |
-| D / → | Mover para direita |
+| ↑ / w | Mover para cima |
+| ← / A | Mover para esquerda |
+| ↓ / S | Mover para baixo |
+| → / D | Mover para direita |
 
 ### Mobile
 O jogo conta com suporte a joystick virtual na tela, permitindo jogar diretamente pelo celular via navegador no [GD.games](https://gd.games/kayozkx/clean-it-up).
@@ -140,9 +137,9 @@ Itens coletáveis que descem pelo cenário. Cada fase possui tipos diferentes de
 
 | Fase | Tipos de Lixo |
 |------|--------------|
-| Fase 1 — Lago | Garrafas PET, latas, sacolas plásticas, embalagens |
-| Fase 2 — Rio | Isopor, fraldas, canos PVC, sacolas |
-| Fase 3 — Mar | tambores, embalagens, canudos, garrafas |
+| Fase 1 — Lago | Garrafas PET, latas, sacolas plásticas, embalagens e garrafas de vidro |
+| Fase 2 — Rio | Isopor, fraldas, canos PVC, sacolas, pneu e garrafas de vidro |
+| Fase 3 — Mar | Tambores, embalagens, canudos, garrafas PET grande, garrafas de vidro |
 
 ![Lixos](assets/objetos/lixos.png)
 
@@ -154,9 +151,9 @@ Elementos que causam dano ao jogador ao colidir. Nas Fases 2 e 3, obstáculos pr
 
 | Fase | Tipos de Obstáculo |
 |------|-------------------|
-| Fase 1 — Lago | Pedras, troncos flutuantes |
-| Fase 2 — Rio | Pedras de rio, troncos longos, redemoinhos |
-| Fase 3 — Mar | Corais, arraia, água-viva |
+| Fase 1 — Lago | Pedras, troncos flutuantes, cobras e piranhas |
+| Fase 2 — Rio | Pedras de rio, troncos longos, redemoinhos, jacarés |
+| Fase 3 — Mar | Minas navais, arraia, água-viva |
 
 ![Obstáculos](assets/objetos/obstaculos.png)
 
@@ -164,7 +161,8 @@ Elementos que causam dano ao jogador ao colidir. Nas Fases 2 e 3, obstáculos pr
 
 ### 🐊 Jacaré — Predador Fase 1
 
-Predador do lago. Persegue ativamente o jogador com velocidade de 100px/s. Sistema de imunidade de 3 segundos entre danos. Sprite espelha conforme a direção do jogador.
+Predador do lago. Persegue ativamente o jogador com velocidade de 120px/s. Sistema de imunidade de 3 segundos entre danos. Sprite espelha conforme a direção do jogador.
+Tamanho maior: 75x50px
 
 ![Jacaré](assets/objetos/jacare.png)
 
@@ -172,7 +170,7 @@ Predador do lago. Persegue ativamente o jogador com velocidade de 100px/s. Siste
 
 ### 🐍 Cobra d'água — Predador Fase 2
 
-Predador do rio. Mais veloz que o Jacaré, persegue com 140px/s. Mesmo sistema de imunidade e espelhamento. Representa o desequilíbrio ecológico causado pela poluição.
+Predador do rio. Mais veloz que o Jacaré, persegue com 140px/s. Mesmo sistema de imunidade e espelhamento. Representa o desequilíbrio ecológico causado pela poluição.Tamanho maior: 80x55px
 
 ![Cobra](assets/objetos/cobra.png)
 
@@ -180,7 +178,7 @@ Predador do rio. Mais veloz que o Jacaré, persegue com 140px/s. Mesmo sistema d
 
 ### 🦈 Tubarão — Predador Fase 3
 
-O predador mais perigoso do jogo. Persegue com 125px/s e **não é destruído ao colidir** — permanece na tela como ameaça constante. Tamanho maior: 150x100px. Nasce a cada 3 segundos com imunidade de 3 segundos entre danos.
+O predador mais perigoso do jogo. Persegue com 160px/s. Mesmo sistema de imunidade e espelhamento. Tamanho maior: 150x100px.
 
 ![Tubarão](assets/objetos/tubarao.png)
 
@@ -205,16 +203,17 @@ Textos exibidos durante o gameplay em todas as fases:
 
 | Parâmetro | Fase 1 — Lago | Fase 2 — Rio | Fase 3 — Mar |
 |-----------|--------------|-------------|-------------|
-| Meta de Lixo | 10 itens | 20 itens | 30 itens |
-| Vidas | 3 | 5 | 5 |
+| Meta de Lixo | 15 itens | 25 itens | 35 itens |
+| Vidas | 3 | 4 | 5 |
 | Velocidade do Lixo | 80 px/s | 100 px/s | 120 px/s |
-| Velocidade Obstáculo | 60 px/s | 100 px/s | 120 px/s |
-| Spawn Lixo | 2 segundos | 1 segundo | 1 segundo |
-| Correnteza | ❌ | ✅ 120px/s | ✅ 120px/s |
+| Velocidade Obstáculo | 60 px/s | 110 px/s | 120 px/s |
+| Spawn Lixo | 2 segundos | 1 segundo | 0.8 segundos |
+| Spawn Obstáculo | 3 segundos | 2 segundos | 2 segundos |
+| Correnteza | ❌ | ✅ 125px/s | ✅ 140px/s |
 | Obstáculo Perseguidor | ❌ | ✅ | ✅ |
 | Predador | Jacaré | Cobra d'água | Tubarão |
-| Velocidade Predador | 100 px/s | 140 px/s | 125 px/s |
-| Predador Persiste | ❌ | ❌ | ✅ |
+| Velocidade Predador | 120 px/s | 140 px/s | 160 px/s |
+| Predador Persiste | ✅ | ✅ | ✅ |
 
 ---
 
@@ -240,7 +239,9 @@ Textos exibidos durante o gameplay em todas as fases:
 
 Primeira tela do jogo. Exibe uma sequência de slides animados apresentando os desenvolvedores e logos institucionais antes de ir automaticamente para o Menu Principal.
 
-![Intro](assets/cenas/intro.png)
+![Intro](assets/cenas/intro_slide1.png)
+![Intro](assets/cenas/intro_slide2.png)
+![Intro](assets/cenas/intro_slide3.png)
 
 ### Grupo: Transição da Apresentação para a Introdução e para o Menu
 
@@ -266,7 +267,10 @@ Tela inicial com música ambiente e botão Jogar. Um delay de 1 segundo (`DelayM
 
 Exibe 3 slides narrativos contando a história de Channel Blue e apresentando os controles antes de entrar na Fase 1. Cada slide é controlado por intervalos de tempo via `Timecontrole1`.
 
-![Transição Fase 1](assets/cenas/transicao1.png)
+![Transição Fase 1](assets/cenas/transicao1_slide1.png)
+![Transição Fase 1](assets/cenas/transicao1_slide2.png)
+![Transição Fase 1](assets/cenas/transicao1_slide3.png)
+![Transição Fase 1](assets/cenas/transicao1_slide4.png)
 
 ### Grupo: Transição Fase 1
 
@@ -276,7 +280,7 @@ Exibe 3 slides narrativos contando a história de Channel Blue e apresentando os
 
 ## 🏞️ Cena 4 — Fase 1: Lago — Águas Esquecidas
 
-O jogador inicia sua jornada em um lago amazônico poluído. Meta: coletar 10 lixos em 300 segundos com 3 vidas. Predador: Jacaré (100px/s). Sem correnteza.
+O jogador inicia sua jornada em um lago amazônico poluído. Meta: coletar 15 lixos em 300 segundos com 3 vidas. Predador: Jacaré (120px/s). Sem correnteza.
 
 ![Fase 1](assets/cenas/fase1.png)
 
@@ -306,7 +310,7 @@ Cria lixo a cada 2 segundos e obstáculos a cada 3 segundos em posições aleat�
 
 ### ⚫ Limpeza de Tela
 
-Remove lixo (Y≥723) e obstáculos (Y≥780) que saem pelos limites inferiores. Lixo não coletado subtrai 1 ponto.
+Remove lixo (Y≥723) e obstáculos (Y≥780) que saem pelos limites inferiores.
 
 ![Fase 1 — Limpeza de Tela](assets/eventos/fase1/fase1_limpeza.png)
 
@@ -314,7 +318,7 @@ Remove lixo (Y≥723) e obstáculos (Y≥780) que saem pelos limites inferiores.
 
 ### 🔴 Colisões
 
-Colisão com lixo: +1 ponto, +1 lixo coletado, efeito sonoro. Colisão com obstáculo: -1 vida, obstáculo deletado. Se vidas chegam a 0: Game Over.
+Colisão com lixo: +1 na meta = +1 lixo coletado, efeito sonoro. Colisão com obstáculo: -1 vida, obstáculo deletado. Se vidas chegam a 0: Game Over.
 
 ![Fase 1 — Colisões](assets/eventos/fase1/fase1_colisoes.png)
 
@@ -322,7 +326,7 @@ Colisão com lixo: +1 ponto, +1 lixo coletado, efeito sonoro. Colisão com obst�
 
 ### 🟠 Transição de Fase
 
-Ao atingir a meta de 10 lixos: fundo muda para lago limpo, objetos são removidos, timer de transição inicia e após 3 segundos vai para a Fase 2. Se o tempo esgota: Game Over.
+Ao atingir a meta de 15 lixos: fundo muda para lago limpo, objetos são removidos, timer de transição inicia e após 3 segundos vai para a Fase 2. Se o tempo esgota: Game Over.
 
 ![Fase 1 — Transição de Fase](assets/eventos/fase1/fase1_transicao.png)
 
@@ -330,7 +334,7 @@ Ao atingir a meta de 10 lixos: fundo muda para lago limpo, objetos são removido
 
 ### 🟣 Predador — Jacaré
 
-Nasce a cada 3 segundos e persegue ativamente o jogador com força de 100px/s. Sistema de imunidade de 3 segundos entre danos. Sprite espelha conforme a direção do jogador.
+Persegue ativamente o jogador com força de 120px/s. Sistema de imunidade de 3 segundos entre danos. Sprite espelha conforme a direção do jogador.
 
 ![Fase 1 — Jacaré](assets/eventos/fase1/fase1_predador.png)
 
@@ -360,7 +364,9 @@ Exibida ao perder todas as vidas ou esgotar o tempo na Fase 1. Possui dois botõ
 
 Exibe a tela de apresentação da Fase 2 com o nome "Rio: Correnteza Suja" antes de iniciar a fase. Timer de 3 segundos.
 
-![Transição Fase 2](assets/cenas/transicao2.png)
+![Transição Fase 2](assets/cenas/transicao2_slide1.png)
+![Transição Fase 2](assets/cenas/transicao2_slide2.png)
+![Transição Fase 2](assets/cenas/transicao2_slide3.png)
 
 ### Grupo: Transição para a Fase 2
 
@@ -370,13 +376,13 @@ Exibe a tela de apresentação da Fase 2 com o nome "Rio: Correnteza Suja" antes
 
 ## 🌊 Cena 6 — Fase 2: Rio — Correnteza Suja
 
-Dificuldade aumentada com lixo e obstáculos mais rápidos. Novidade: correnteza constante de 120px/s empurra o jogador para a direita. Meta: 20 lixos. Predador: Cobra d'água (140px/s).
+Dificuldade aumentada com lixo e obstáculos mais rápidos. Novidade: correnteza constante de 120px/s empurra o jogador para a direita. Meta: 25 lixos. Predador: Cobra d'água (140px/s).
 
 ![Fase 2](assets/cenas/fase2.png)
 
 ### 🔵 Inicialização 2
 
-Mesma estrutura da Fase 1 com valores diferentes: 5 vidas, meta 20, velocidades maiores. Adiciona timer de correnteza e spawn da cobra.
+Mesma estrutura da Fase 1 com valores diferentes: 4 vidas, meta 25, velocidades maiores. Adiciona timer de correnteza e spawn da cobra.
 
 ![Fase 2 — Inicialização](assets/eventos/fase2/fase2_inicializacao.png)
 
@@ -392,7 +398,7 @@ Mesmo sistema da Fase 1 — exibe tempo restante em segundos.
 
 ### 🟢 Spawn 2
 
-Lixo criado a cada 1 segundo com velocidade de 100px/s. Obstáculos a cada 2 segundos. Correnteza aplica força constante de 120px/s no ângulo 0° (direita) sobre o jogador.
+Lixo criado a cada 1 segundo com velocidade de 100px/s. Obstáculos a cada 2 segundos. Correnteza aplica força constante de 125px/s no ângulo 0° (direita) sobre o jogador.
 
 ![Fase 2 — Spawn](assets/eventos/fase2/fase2_spawn.png)
 
@@ -400,7 +406,7 @@ Lixo criado a cada 1 segundo com velocidade de 100px/s. Obstáculos a cada 2 seg
 
 ### ⚫ Limpeza de Tela 2
 
-Remove lixo (Y≥723) com penalidade de -1 ponto e obstáculos (Y≥780).
+Remove lixo (Y≥723) e obstáculos (Y≥780).
 
 ![Fase 2 — Limpeza de Tela](assets/eventos/fase2/fase2_limpeza.png)
 
@@ -408,7 +414,7 @@ Remove lixo (Y≥723) com penalidade de -1 ponto e obstáculos (Y≥780).
 
 ### 🔴 Colisões 2
 
-Mesma lógica da Fase 1. Meta atualizada para "/20". Obstáculos a menos de 400px do jogador passam a persegui-lo.
+Mesma lógica da Fase 1. Meta atualizada para "/25". Obstáculos a menos de 400px do jogador passam a persegui-lo.
 
 ![Fase 2 — Colisões](assets/eventos/fase2/fase2_colisoes.png)
 
@@ -416,7 +422,7 @@ Mesma lógica da Fase 1. Meta atualizada para "/20". Obstáculos a menos de 400p
 
 ### 🟠 Transição de Fase 2
 
-Ao atingir 20 lixos: fundo muda para rio limpo, cobra e objetos deletados, vai para Transição Fase 3 após 3 segundos.
+Ao atingir 25 lixos: fundo muda para rio limpo, cobra e objetos deletados, vai para Transição Fase 3 após 3 segundos.
 
 ![Fase 2 — Transição de Fase](assets/eventos/fase2/fase2_transicao.png)
 
@@ -424,7 +430,7 @@ Ao atingir 20 lixos: fundo muda para rio limpo, cobra e objetos deletados, vai p
 
 ### 🟣 Predador — Cobra d'água
 
-Nasce a cada 3 segundos, persegue com 140px/s — mais rápida que o Jacaré. Mesmo sistema de imunidade e espelhamento de sprite.
+Persegue com 140px/s — mais rápida que o Jacaré. Mesmo sistema de imunidade e espelhamento de sprite.
 
 ![Fase 2 — Cobra](assets/eventos/fase2/fase2_predador.png)
 
@@ -454,7 +460,9 @@ Exibida ao perder todas as vidas ou esgotar o tempo na Fase 2. Possui dois botõ
 
 Exibe a tela de apresentação da Fase 3 com o nome "Mar: Abismo de Plástico". Timer de 3 segundos.
 
-![Transição Fase 3](assets/cenas/transicao3.png)
+![Transição Fase 3](assets/cenas/transicao3_slide1.png)
+![Transição Fase 3](assets/cenas/transicao3_slide2.png)
+![Transição Fase 3](assets/cenas/transicao3_slide3.png)
 
 ### Grupo: Transição Final
 
@@ -464,13 +472,13 @@ Exibe a tela de apresentação da Fase 3 com o nome "Mar: Abismo de Plástico". 
 
 ## 🌐 Cena 8 — Fase 3: Mar — Abismo de Plástico
 
-A fase mais difícil. Lixo e obstáculos na velocidade máxima (120px/s), correnteza marítima, obstáculos perseguidores e o Tubarão que persiste na tela. Meta: 30 lixos.
+A fase mais difícil. Lixo e obstáculos na velocidade máxima (120px/s), correnteza marítima, obstáculos perseguidores e o Tubarão que persiste na tela. Meta: 35 lixos.
 
 ![Fase 3](assets/cenas/fase3.png)
 
 ### 🔵 Inicialização 3
 
-Meta de 30 lixos, música épica. Adiciona timer do tubarão. Estrutura idêntica às fases anteriores com valores máximos.
+Meta de 35 lixos, música épica. Adiciona timer do tubarão. Estrutura idêntica às fases anteriores com valores máximos.
 
 ![Fase 3 — Inicialização](assets/eventos/fase3/fase3_inicializacao.png)
 
@@ -486,7 +494,7 @@ Mesmo sistema das fases anteriores.
 
 ### 🟢 Spawn 3
 
-Lixo a cada 1 segundo com 120px/s. Obstáculos a cada 2 segundos com 120px/s. Correnteza 120px/s. Todos os obstáculos a menos de 400px perseguem o jogador.
+Lixo a cada 0.8 segundos com 100px/s. Obstáculos a cada 2 segundos com 100px/s. Correnteza 140px/s. Todos os obstáculos a menos de 400px perseguem o jogador.
 
 ![Fase 3 — Spawn](assets/eventos/fase3/fase3_spawn.png)
 
@@ -494,7 +502,7 @@ Lixo a cada 1 segundo com 120px/s. Obstáculos a cada 2 segundos com 120px/s. Co
 
 ### ⚫ Limpeza de Tela 3
 
-Remove lixo (Y≥723) com -1 ponto e obstáculos (Y≥780).
+Remove lixo (Y≥723) e obstáculos (Y≥780).
 
 ![Fase 3 — Limpeza de Tela](assets/eventos/fase3/fase3_limpeza.png)
 
@@ -502,7 +510,7 @@ Remove lixo (Y≥723) com -1 ponto e obstáculos (Y≥780).
 
 ### 🔴 Colisões 3
 
-Mesma lógica. Meta atualizada para "/30".
+Mesma lógica. Meta atualizada para "/35".
 
 ![Fase 3 — Colisões](assets/eventos/fase3/fase3_colisoes.png)
 
@@ -510,7 +518,7 @@ Mesma lógica. Meta atualizada para "/30".
 
 ### 🟠 Transição de Fase 3
 
-Ao atingir 30 lixos: fundo muda para oceano limpo e após 3 segundos vai para a tela de Vitória.
+Ao atingir 35 lixos: fundo muda para oceano limpo e após 3 segundos vai para a tela de Vitória.
 
 ![Fase 3 — Transição de Fase](assets/eventos/fase3/fase3_transicao.png)
 
@@ -518,7 +526,7 @@ Ao atingir 30 lixos: fundo muda para oceano limpo e após 3 segundos vai para a 
 
 ### 🟣 Predador — Tubarão
 
-O predador mais perigoso. 125px/s, nasce a cada 3 segundos e **não é destruído ao colidir** — persiste na tela como ameaça constante. Tamanho 150x100px. Mesmo sistema de imunidade e espelhamento.
+O predador mais perigoso. 160px/s, persiste na tela como ameaça constante. Tamanho 150x100px. Mesmo sistema de imunidade e espelhamento.
 
 ![Fase 3 — Tubarão](assets/eventos/fase3/fase3_predador.png)
 
@@ -544,7 +552,10 @@ Exibida ao perder todas as vidas ou esgotar o tempo na Fase 3. Possui dois botõ
 
 Tela final exibida ao completar as 3 fases. Dois slides comemorativos temporizados com música de triunfo. Após 11 segundos exibe a tela final com logo e botão para voltar ao Menu.
 
-![Vitória](assets/cenas/vitoria.png)
+![Vitória](assets/cenas/vitoria_slide1.png)
+![Vitória](assets/cenas/vitoria_slide2.png)
+![Vitória](assets/cenas/vitoria_telafinal.png)
+
 
 ### Grupo: Vitória
 
@@ -556,11 +567,7 @@ Tela final exibida ao completar as 3 fases. Dois slides comemorativos temporizad
 
 ## 📂 Documentação Completa
 
-A documentação acadêmica completa está na pasta `docs/`:
-
-- `docs/Channel_Blue.pdf` — Apresentação do jogo
-- `docs/CleanItUp_Apresentacao.pdf` — Apresentação acadêmica
-- `docs/Documentacao_Tecnica_ChannelBlue.pdf` — Documentação técnica completa
+A documentação completa está na pasta`docs/` em breve:
 
 ---
 
@@ -577,8 +584,7 @@ A documentação acadêmica completa está na pasta `docs/`:
 
 ## 👤 Autor
 
-Desenvolvido por **Kayo Willian**
-Santarém, Pará — 2025
+Desenvolvido por **Kayozkx**
 
 ---
 
