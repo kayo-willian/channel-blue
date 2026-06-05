@@ -32,7 +32,6 @@ channel-blue/
 │   │   ├── fimjogo1.png
 │   │   ├── fimjogo2.png
 │   │   ├── fimjogo3.png
-│   │   ├── intro.png
 │   │   ├── intro_slide1.png
 │   │   ├── intro_slide2.png
 │   │   ├── intro_slide3.png
@@ -42,15 +41,12 @@ channel-blue/
 │   │   ├── transicao1_slide3.png
 │   │   ├── transicao1_slide4.png
 │   │   ├── transicao1_slide5.png
-│   │   ├── transicao2.png
 │   │   ├── transicao2_slide1.png
 │   │   ├── transicao2_slide2.png
 │   │   ├── transicao2_slide3.png
-│   │   ├── transicao3.png
 │   │   ├── transicao3_slide1.png
 │   │   ├── transicao3_slide2.png
 │   │   ├── transicao3_slide3.png
-│   │   ├── vitoria.png
 │   │   ├── vitoria_slide1.png
 │   │   ├── vitoria_slide2.png
 │   │   └── vitoria_telafinal.png
