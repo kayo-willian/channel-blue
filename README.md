@@ -3,6 +3,7 @@
 ![GDevelop](https://img.shields.io/badge/Engine-GDevelop%205-blue)
 ![Plataforma](https://img.shields.io/badge/Plataforma-PC%20%7C%20Mobile-green)
 ![Status](https://img.shields.io/badge/Status-Em%20Andamento-yellow)
+[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 🕹️ **[Jogar agora no navegador](https://gd.games/kayozkx/clean-it-up)**
 
