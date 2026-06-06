@@ -27,89 +27,24 @@ channel-blue/
 │
 ├── assets/
 │   ├── cenas/
-│   │   ├── fase1.png
-│   │   ├── fase2.png
-│   │   ├── fase3.png
-│   │   ├── fimjogo1.png
-│   │   ├── fimjogo2.png
-│   │   ├── fimjogo3.png
-│   │   ├── intro_slide1.png
-│   │   ├── intro_slide2.png
-│   │   ├── intro_slide3.png
-│   │   ├── menu.png
-│   │   ├── transicao1_slide1.png
-│   │   ├── transicao1_slide2.png
-│   │   ├── transicao1_slide3.png
-│   │   ├── transicao1_slide4.png
-│   │   ├── transicao1_slide5.png
-│   │   ├── transicao2_slide1.png
-│   │   ├── transicao2_slide2.png
-│   │   ├── transicao2_slide3.png
-│   │   ├── transicao3_slide1.png
-│   │   ├── transicao3_slide2.png
-│   │   ├── transicao3_slide3.png
-│   │   ├── vitoria_slide1.png
-│   │   ├── vitoria_slide2.png
-│   │   └── vitoria_telafinal.png
 │   │
 │   ├── eventos/
 │   │   ├── fase1/
-│   │   │   ├── fase1_inicializacao.png
-│   │   │   ├── fase1_cronometro.png
-│   │   │   ├── fase1_spawn.png
-│   │   │   ├── fase1_limpeza.png
-│   │   │   ├── fase1_colisoes.png
-│   │   │   ├── fase1_transicao.png
-│   │   │   └── fase1_predador.png
 │   │   ├── fase2/
-│   │   │   ├── fase2_inicializacao.png
-│   │   │   ├── fase2_cronometro.png
-│   │   │   ├── fase2_spawn.png
-│   │   │   ├── fase2_limpeza.png
-│   │   │   ├── fase2_colisoes.png
-│   │   │   ├── fase2_transicao.png
-│   │   │   └── fase2_predador.png
 │   │   ├── fase3/
-│   │   │   ├── fase3_inicializacao.png
-│   │   │   ├── fase3_cronometro.png
-│   │   │   ├── fase3_spawn.png
-│   │   │   ├── fase3_limpeza.png
-│   │   │   ├── fase3_colisoes.png
-│   │   │   ├── fase3_transicao.png
-│   │   │   └── fase3_predador.png
 │   │   ├── fimdejogo1/
-│   │   │   └── fimjogo1_eventos.png
 │   │   ├── fimdejogo2/
-│   │   │   └── fimjogo2_eventos.png
 │   │   ├── fimdejogo3/
-│   │   │   └── fimjogo3_eventos.png
 │   │   ├── intro/
-│   │   │   └── intro_eventos.png
 │   │   ├── menu/
-│   │   │   └── menu_eventos.png
 │   │   ├── transicao1/
-│   │   │   └── transicao1_eventos.png
 │   │   ├── transicao2/
-│   │   │   └── transicao2_eventos.png
 │   │   ├── transicao3/
-│   │   │   └── transicao3_eventos.png
 │   │   └── vitoria/
-│   │       └── vitoria_eventos.png
 │   │
 │   └── objetos/
-│       ├── channelblue.png
-│       ├── lixos.png
-│       ├── obstaculos.png
-│       ├── jacare.png
-│       ├── cobra.png
-│       ├── tubarao.png
-│       ├── joystick.png
-│       └── hud.png
 │
 ├── docs/
-│   ├── Channel_Blue.pdf
-│   ├── CleanItUp_Apresentacao.pdf
-│   └── Documentacao_Tecnica_ChannelBlue.pdf
 │
 ├── LICENSE
 └── README.md
@@ -147,7 +82,7 @@ O espírito guardião das águas. Controlado pelo jogador, percorre os três eco
 
 ### 🗑️ Lixos
 
-Itens coletáveis que descem pelo cenário. Cada fase possui tipos diferentes de resíduos representando os reais encontrados nos ecossistemas brasileiros.
+Itens coletáveis que descem pelo cenário. Cada fase possui tipos diferentes de resíduos representando os reais encontrados nos ecossistemas.
 
 | Fase | Tipos de Lixo |
 |------|--------------|
@@ -592,7 +527,7 @@ Tela final exibida ao completar as 3 fases. Dois slides comemorativos temporizad
 
 ## 📂 Documentação Completa
 
-A documentação completa está na pasta`docs/` em breve:
+A documentação completa estará na pasta `docs/` em breve
 
 ---
 
