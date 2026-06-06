@@ -2,7 +2,7 @@
 
 🕹️ **[Jogar agora no navegador](https://gd.games/kayozkx/clean-it-up)**
 
-Jogo educacional 2D top-down desenvolvido no GDevelop 5 inicialmente como trabalho acadêmico do curso de Licenciatura Informática da UFOPA
+Jogo educacional 2D top-down desenvolvido no GDevelop 5
 
 > Desenvolvido de Maio a Junho de 2026.
 
