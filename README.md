@@ -23,7 +23,7 @@ Jogo educacional 2D top-down desenvolvido no GDevelop 5
 - [Controles](#️-controles)
 - [Personagens e Objetos](#-personagens-e-objetos)
 - [Comparativo das Fases](#-comparativo-das-3-fases)
-- [Tecnologias](#️-tecnologias)
+- [Créditos](#-créditos)
 - [O que Aprendi](#-o-que-aprendi)
 - [Resultados do Projeto](#-resultados-do-projeto)
 - [Autor](#-autor)
@@ -214,8 +214,6 @@ Textos exibidos durante o gameplay em todas as fases:
 | BehaviorRemapper | Remapeamento de controles |
 | SpriteMultitouchJoystick | Joystick virtual para jogar no celular |
 | Gamepads | Suporte a controles externos |
-
----
 
 ---
 
@@ -541,8 +539,6 @@ O predador mais perigoso. 160px/s, persiste na tela como ameaça constante. Tama
 
 ---
 
----
-
 ## 💀 Cena 11 — Fim de Jogo 3
 
 Exibida ao perder todas as vidas ou esgotar o tempo na Fase 3. Possui dois botões:
@@ -550,6 +546,8 @@ Exibida ao perder todas as vidas ou esgotar o tempo na Fase 3. Possui dois botõ
 - **Menu** → volta para o Menu Principal
 
 ![Fim de Jogo 3](assets/cenas/fimjogo3.png)
+
+---
 
 ### Grupo: Fim de Jogo 3
 
