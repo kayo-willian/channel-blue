@@ -519,7 +519,7 @@ Tela final exibida ao completar as 3 fases. Dois slides comemorativos temporizad
 
 ![Vitória](assets/cenas/vitoria_slide1.png)
 ![Vitória](assets/cenas/vitoria_slide2.png)
-![Vitória](assets/cenas/vitoria_telafinal.png)
+![Vitória](assets/cenas/vitoria_slide3.png)
 
 
 ### Grupo: Vitória
