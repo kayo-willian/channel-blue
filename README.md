@@ -321,7 +321,7 @@ Exibida ao perder todas as vidas ou esgotar o tempo na Fase 1. Possui dois botõ
 
 ---
 
-## 📜 Cena 5 — Transição Fase 2
+## 📜 Cena 6 — Transição Fase 2
 
 Exibe a tela de apresentação da Fase 2 com o nome "Rio: Correnteza Suja" antes de iniciar a fase. Timer de 3 segundos.
 
@@ -337,7 +337,7 @@ Exibe a tela de apresentação da Fase 2 com o nome "Rio: Correnteza Suja" antes
 
 ---
 
-## 🌊 Cena 6 — Fase 2: Rio — Correnteza Suja
+## 🌊 Cena 7 — Fase 2: Rio — Correnteza Suja
 
 Dificuldade aumentada com lixo e obstáculos mais rápidos. Novidade: correnteza constante de 120px/s empurra o jogador para a direita. Meta: 25 lixos. Predador: Cobra d'água (140px/s).
 
@@ -399,7 +399,7 @@ Persegue com 140px/s — mais rápida que o Jacaré. Mesmo sistema de imunidade 
 
 ---
 
-## 💀 Cena 9 — Fim de Jogo 2
+## 💀 Cena 8 — Fim de Jogo 2
 
 Exibida ao perder todas as vidas ou esgotar o tempo na Fase 2. Possui dois botões:
 - **Reiniciar** → volta direto para a Fase 2
@@ -419,7 +419,7 @@ Exibida ao perder todas as vidas ou esgotar o tempo na Fase 2. Possui dois botõ
 
 ---
 
-## 📜 Cena 7 — Transição Fase 3
+## 📜 Cena 9 — Transição Fase 3
 
 Exibe a tela de apresentação da Fase 3 com o nome "Mar: Abismo de Plástico". Timer de 3 segundos.
 
@@ -435,7 +435,7 @@ Exibe a tela de apresentação da Fase 3 com o nome "Mar: Abismo de Plástico". 
 
 ---
 
-## 🌐 Cena 8 — Fase 3: Mar — Abismo de Plástico
+## 🌐 Cena 10 — Fase 3: Mar — Abismo de Plástico
 
 A fase mais difícil. Lixo e obstáculos na velocidade máxima (120px/s), correnteza marítima, obstáculos perseguidores e o Tubarão que persiste na tela. Meta: 35 lixos.
 
@@ -499,7 +499,7 @@ O predador mais perigoso. 160px/s, persiste na tela como ameaça constante. Tama
 
 ---
 
-## 💀 Cena 12 — Fim de Jogo 3
+## 💀 Cena 11 — Fim de Jogo 3
 
 Exibida ao perder todas as vidas ou esgotar o tempo na Fase 3. Possui dois botões:
 - **Reiniciar** → volta direto para a Fase 3
@@ -513,7 +513,7 @@ Exibida ao perder todas as vidas ou esgotar o tempo na Fase 3. Possui dois botõ
 
 ---
 
-## 🏆 Vitória
+## 🏆 Cena 12 — Vitória
 
 Tela final exibida ao completar as 3 fases. Dois slides comemorativos temporizados com música de triunfo. Após 11 segundos exibe a tela final com logo e botão para voltar ao Menu.
 
