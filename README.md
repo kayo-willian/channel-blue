@@ -229,7 +229,7 @@ Exibe 3 slides narrativos contando a história de Channel Blue e apresentando os
 
 ![Transição Fase 1](assets/cenas/transicao1_slide2.png)
 
-![Transição Fase 1](assets/cenas/transicao1_slide3.png)
+![Transição Fase 1](assets/cenas/transicao1_slide3(1).png)
 
 ![Transição Fase 1](assets/cenas/transicao1_slide4.png)
 
