@@ -203,12 +203,18 @@ Textos exibidos durante o gameplay em todas as fases:
 
 | Elemento | Posição | Função |
 |----------|---------|--------|
-| Pontuação | Canto superior esquerdo | Pontos totais acumulados |
 | Vidas | Canto superior esquerdo | Vidas restantes |
 | Cronômetro | Centro superior | Tempo restante em segundos |
 | Meta | Canto superior direito | Lixo coletado / Total necessário |
 
-![HUD](assets/objetos/hud.png)
+![HUD](assets/objetos/hudfase1.png)
+
+![HUD](assets/objetos/hudfase2.png)
+
+![HUD](assets/objetos/hudfase3.png)
+
+
+
 
 ---
 
@@ -253,7 +259,9 @@ Textos exibidos durante o gameplay em todas as fases:
 Primeira tela do jogo. Exibe uma sequência de slides animados apresentando os desenvolvedores e logos institucionais antes de ir automaticamente para o Menu Principal.
 
 ![Intro](assets/cenas/intro_slide1.png)
+
 ![Intro](assets/cenas/intro_slide2.png)
+
 ![Intro](assets/cenas/intro_slide3.png)
 
 ### Grupo: Transição da Apresentação para a Introdução e para o Menu
@@ -281,8 +289,11 @@ Tela inicial com música ambiente e botão Jogar. Um delay de 1 segundo (`DelayM
 Exibe 3 slides narrativos contando a história de Channel Blue e apresentando os controles antes de entrar na Fase 1. Cada slide é controlado por intervalos de tempo via `Timecontrole1`.
 
 ![Transição Fase 1](assets/cenas/transicao1_slide1.png)
+
 ![Transição Fase 1](assets/cenas/transicao1_slide2.png)
+
 ![Transição Fase 1](assets/cenas/transicao1_slide3.png)
+
 ![Transição Fase 1](assets/cenas/transicao1_slide4.png)
 
 ### Grupo: Transição Fase 1
@@ -378,7 +389,9 @@ Exibida ao perder todas as vidas ou esgotar o tempo na Fase 1. Possui dois botõ
 Exibe a tela de apresentação da Fase 2 com o nome "Rio: Correnteza Suja" antes de iniciar a fase. Timer de 3 segundos.
 
 ![Transição Fase 2](assets/cenas/transicao2_slide1.png)
+
 ![Transição Fase 2](assets/cenas/transicao2_slide2.png)
+
 ![Transição Fase 2](assets/cenas/transicao2_slide3.png)
 
 ### Grupo: Transição para a Fase 2
@@ -474,7 +487,9 @@ Exibida ao perder todas as vidas ou esgotar o tempo na Fase 2. Possui dois botõ
 Exibe a tela de apresentação da Fase 3 com o nome "Mar: Abismo de Plástico". Timer de 3 segundos.
 
 ![Transição Fase 3](assets/cenas/transicao3_slide1.png)
+
 ![Transição Fase 3](assets/cenas/transicao3_slide2.png)
+
 ![Transição Fase 3](assets/cenas/transicao3_slide3.png)
 
 ### Grupo: Transição Final
