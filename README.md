@@ -22,7 +22,6 @@ Channel Blue é um espírito das águas que percorre três ecossistemas aquátic
 ## 📂 Estrutura do Repositório
 
 ```
-Aqui está a estrutura completa do repositório, mantendo a ordem exata do seu editor e inserindo os novos arquivos de imagens (`.png`) dentro de suas respectivas pastas na ordem alfabética correta:
 
 channel-blue/
 │
