@@ -580,6 +580,16 @@ Tela final exibida ao completar as 3 fases. Dois slides comemorativos temporizad
 - Canva Magic Media — interfaces
 - Freesound.org — efeitos sonoros
 
+## 🎨 Créditos
+
+| Recurso | Ferramenta | Uso |
+|---------|-----------|-----|
+| Sprites | Leonardo.ai | Personagens e objetos |
+| Cenários | Ideogram.ai | Fundos das fases |
+| Interfaces | Canva Magic Media | HUD e menus |
+| Músicas | Suno.ai | Trilha sonora |
+| Efeitos sonoros | Freesound.org | Sons do gameplay |
+
 ---
 
 ## 📚 O que Aprendi
