@@ -1,3 +1,4 @@
+![Banner](assets/banner.png)
 # 🌊 Clean It Up! : Channel Blue
 
 ![GDevelop](https://img.shields.io/badge/Engine-GDevelop%205-blue)
