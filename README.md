@@ -193,7 +193,7 @@ Textos exibidos durante o gameplay em todas as fases:
 
 ## 🎬 Cena 1 — Intro
 
-Primeira tela do jogo. Exibe uma sequência de slides animados apresentando os desenvolvedores e logos institucionais antes de ir automaticamente para o Menu Principal.
+Primeira tela do jogo. Exibe uma sequência de 3 slides animados antes de ir automaticamente para o Menu Principal.
 
 ![Intro](assets/cenas/intro_slide1.png)
 
@@ -203,7 +203,7 @@ Primeira tela do jogo. Exibe uma sequência de slides animados apresentando os d
 
 ### Grupo: Transição da Apresentação para a Introdução e para o Menu
 
-Dois slides temporizados são exibidos em sequência. O timer `TimeIntro` controla qual slide aparece. Após 7 segundos o jogo vai automaticamente para o Menu Principal.
+Três slides temporizados são exibidos em sequência.
 
 ![Eventos Intro](assets/eventos/intro/intro_eventos.png)
 
