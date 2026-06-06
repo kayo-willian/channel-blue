@@ -573,22 +573,25 @@ Tela final exibida ao completar as 3 fases. Dois slides comemorativos temporizad
 
 ## 🛠️ Tecnologias
 
-- GDevelop 5 (JavaScript)
-- Suno.ai — músicas
-- Leonardo.ai — sprites
-- Ideogram.ai — cenários
-- Canva Magic Media — interfaces
-- Freesound.org — efeitos sonoros
+- GDevelop 5
+- Deep Seek
+- Claude
+- ChatGPT
+- Suno.ai
+- Canva Magic Media 
+- Freesound.org 
 
 ## 🎨 Créditos
 
 | Recurso | Ferramenta | Uso |
 |---------|-----------|-----|
-| Sprites | Leonardo.ai | Personagens e objetos |
-| Cenários | Ideogram.ai | Fundos das fases |
+| Sprites e cenários | ChatGPT (DALL-E) | Personagens, objetos e fundos |
 | Interfaces | Canva Magic Media | HUD e menus |
 | Músicas | Suno.ai | Trilha sonora |
 | Efeitos sonoros | Freesound.org | Sons do gameplay |
+| Código e lógica | Claude (Anthropic) | Desenvolvimento dos eventos e mecânicas |
+| Prompt inicial | DeepSeek | Estrutura inicial do projeto |
+| Engine | GDevelop 5 | Desenvolvimento do jogo |
 
 ---
 
@@ -602,6 +605,13 @@ Tela final exibida ao completar as 3 fases. Dois slides comemorativos temporizad
 - Desenvolvimento de jogos 2D top-down
 - Design de interfaces e HUD para jogos
 - Publicação de jogos para PC e Mobile
+
+## ⚔️ Desafios Enfrentados
+
+- Implementar o sistema de perseguição dos predadores sem travar o jogo
+- Equilibrar a dificuldade progressiva entre as três fases
+- Adaptar os controles para funcionar bem tanto no PC quanto no mobile
+- Otimizar o spawn de objetos para não sobrecarregar o desempenho
 
 ---
 
@@ -626,6 +636,16 @@ Tela final exibida ao completar as 3 fases. Dois slides comemorativos temporizad
 
 ---
 
+## 💡 Inspirações
+
+- Sempre tive vontade de criar um jogo e esse projeto foi minha primeira oportunidade de tornar isso realidade
+- Preocupação com a poluição dos ecossistemas aquáticos ao redor do mundo
+- Vontade de criar um jogo educacional acessível e divertido
+- Desejo de unir diversão e consciência ambiental em uma só experiência
+- Curiosidade em explorar o desenvolvimento de jogos do zero usando ferramentas modernas
+
+---
+
 ## 👤 Autor
 
 Desenvolvido por **Kayozkx**
@@ -634,4 +654,5 @@ Desenvolvido por **Kayozkx**
 
 
 > Projeto com foco em educação ambiental e preservação dos ecossistemas aquáticos.
+
 > Início do Desenvolvimento — 26 maio de 2026.
