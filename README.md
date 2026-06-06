@@ -311,7 +311,7 @@ Exibida ao perder todas as vidas ou esgotar o tempo na Fase 1. Possui dois botõ
 
 ### Grupo: Fim de Jogo 1
 
-![Eventos Fim de Jogo 1](assets/eventos/fimjogo1/fimjogo1_eventos.png)
+![Eventos Fim de Jogo 1](assets/eventos/fimdejogo1/fimjogo1_eventos.png)
 
 ---
 
@@ -409,7 +409,7 @@ Exibida ao perder todas as vidas ou esgotar o tempo na Fase 2. Possui dois botõ
 
 ### Grupo: Fim de Jogo 2
 
-![Eventos Fim de Jogo 2](assets/eventos/fimjogo2/fimjogo2_eventos.png)
+![Eventos Fim de Jogo 2](assets/eventos/fimdejogo2/fimjogo2_eventos.png)
 
 ---
 
@@ -509,7 +509,7 @@ Exibida ao perder todas as vidas ou esgotar o tempo na Fase 3. Possui dois botõ
 
 ### Grupo: Fim de Jogo 3
 
-![Eventos Fim de Jogo 3](assets/eventos/fimjogo3/fimjogo3_eventos.png)
+![Eventos Fim de Jogo 3](assets/eventos/fimdejogo3/fimjogo3_eventos.png)
 
 ---
 
