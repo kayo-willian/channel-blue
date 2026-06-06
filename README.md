@@ -42,11 +42,9 @@ channel-blue/
 │   │   ├── transicao3/
 │   │   └── vitoria/
 │   │
-│   ├── cenas/
+│   ├── gameplay/
 │   │
-│   └── gameplay/
-│
-├── docs/
+│   └── objetos/
 │
 ├── LICENSE
 └── README.md
