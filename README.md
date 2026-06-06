@@ -141,7 +141,7 @@ O jogo conta com suporte a joystick virtual na tela, permitindo jogar diretament
 
 O espírito guardião das águas. Controlado pelo jogador, percorre os três ecossistemas coletando lixo e desviando de obstáculos e predadores. Possui 5 animações direcionais: parado, cima, baixo, direita e esquerda.
 
-![Channel Blue](assets/objetos/channelblue.png)
+  ![Channel Blue](assets/objetos/channelblue.png)
 
 ---
 
