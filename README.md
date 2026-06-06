@@ -42,7 +42,9 @@ channel-blue/
 │   │   ├── transicao3/
 │   │   └── vitoria/
 │   │
-│   └── objetos/
+│   ├── cenas/
+│   │
+│   └── gameplay/
 │
 ├── docs/
 │
@@ -245,6 +247,10 @@ O jogador inicia sua jornada em um lago amazônico poluído. Meta: coletar 15 li
 
 ![Fase 1](assets/cenas/fase1.png)
 
+### 🎥 Gameplay
+
+![Gameplay Fase 1](assets/gameplay/fase1_lago.gif)
+
 ### 🔵 Inicialização
 
 Define todas as variáveis iniciais: pontos, vidas, lixo coletado, meta, fase encerrada, tempo restante. Inicia todos os timers e a música. Limita a posição do jogador dentro dos limites da tela.
@@ -343,6 +349,10 @@ Dificuldade aumentada com lixo e obstáculos mais rápidos. Novidade: correnteza
 
 ![Fase 2](assets/cenas/fase2.png)
 
+### 🎥 Gameplay
+
+![Gameplay Fase 2](assets/gameplay/fase2_rio.gif)
+
 ### 🔵 Inicialização 2
 
 Mesma estrutura da Fase 1 com valores diferentes: 4 vidas, meta 25, velocidades maiores. Adiciona timer de correnteza e spawn da cobra.
@@ -440,6 +450,10 @@ Exibe a tela de apresentação da Fase 3 com o nome "Mar: Abismo de Plástico". 
 A fase mais difícil. Lixo e obstáculos na velocidade máxima (120px/s), correnteza marítima, obstáculos perseguidores e o Tubarão que persiste na tela. Meta: 35 lixos.
 
 ![Fase 3](assets/cenas/fase3.png)
+
+### 🎥 Gameplay
+
+![Gameplay Fase 3](assets/gameplay/fase3_mar.gif)
 
 ### 🔵 Inicialização 3
 
