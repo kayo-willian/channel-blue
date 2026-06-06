@@ -78,6 +78,11 @@ O espírito guardião das águas. Controlado pelo jogador, percorre os três eco
 
 ![Channel Blue](assets/objetos/channelblue.png)
 
+![Channel Blue](assets/objetos/cima.png)
+![Channel Blue](assets/objetos/baixo.png)
+![Channel Blue](assets/objetos/direita.png)
+![Channel Blue](assets/objetos/esquerda.png)
+
 ---
 
 ### 🗑️ Lixos
