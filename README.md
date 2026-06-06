@@ -451,8 +451,6 @@ Exibida ao perder todas as vidas ou esgotar o tempo na Fase 2. Possui dois botõ
 
 ---
 
----
-
 # 📖 Parte 3 — O Abismo
 
 ---
