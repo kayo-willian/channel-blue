@@ -99,7 +99,7 @@ Itens coletáveis que descem pelo cenário. Cada fase possui tipos diferentes de
 
 ---
 
-### 🪨 Obstáculos
+### 🚧 Obstáculos
 
 Elementos que causam dano ao jogador ao colidir. Nas Fases 2 e 3, obstáculos próximos (menos de 400px) passam a perseguir ativamente o jogador.
 
