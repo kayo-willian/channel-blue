@@ -8,9 +8,12 @@
 
 Jogo educacional 2D top-down desenvolvido no GDevelop 5
 
-> Desenvolvido entre maio a junho de 2026.
+## 📥 Download
+
+[![Download](https://img.shields.io/badge/Download-Windows-blue)](https://github.com/kayozkx/channel-blue/releases/latest)
 
 ---
+
 ## 📋 Índice
 
 - [Sobre o Jogo](#-sobre-o-jogo)
@@ -618,4 +621,6 @@ Desenvolvido por **Kayozkx**
 
 ---
 
-> Projeto com foco em educação ambiental e preservação dos ecossistemas aquáticos brasileiros.
+
+> Projeto com foco em educação ambiental e preservação dos ecossistemas aquáticos.
+> Início do Desenvolvimento — 26 maio de 2026.
