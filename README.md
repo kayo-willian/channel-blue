@@ -273,7 +273,7 @@ Exibe 3 slides narrativos contando a história de Channel Blue e apresentando os
 
 ## 🏞️ Cena 4 — Fase 1: Lago — Águas Esquecidas
 
-O jogador inicia sua jornada em um lago amazônico poluído. Meta: coletar 15 lixos em 300 segundos com 3 vidas. Predador: Jacaré (120px/s). Sem correnteza.
+O jogador inicia sua jornada em um lago poluído e esquecido. Meta: coletar 15 lixos em 300 segundos com 3 vidas. Predador: Jacaré (120px/s). Sem correnteza.
 
 ![Fase 1](assets/cenas/fase1.png)
 
@@ -572,16 +572,6 @@ Tela final exibida ao completar as 3 fases. Dois slides comemorativos temporizad
 
 ---
 
-## 🛠️ Tecnologias
-
-- GDevelop 5
-- Deep Seek
-- Claude
-- ChatGPT
-- Suno.ai
-- Canva Magic Media 
-- Freesound.org 
-
 ## 🎨 Créditos
 
 | Recurso | Ferramenta | Uso |
@@ -592,7 +582,7 @@ Tela final exibida ao completar as 3 fases. Dois slides comemorativos temporizad
 | Efeitos sonoros | Freesound.org | Sons do gameplay |
 | Código e lógica | Claude (Anthropic) | Desenvolvimento dos eventos e mecânicas |
 | Prompt inicial | DeepSeek | Estrutura inicial do projeto |
-| Engine | GDevelop 5 | Desenvolvimento do jogo |
+| Engine e ferramentas visuais | GDevelop 5 | Desenvolvimento, eventos, lógica e publicação do jogo |
 
 ---
 
@@ -606,6 +596,8 @@ Tela final exibida ao completar as 3 fases. Dois slides comemorativos temporizad
 - Desenvolvimento de jogos 2D top-down
 - Design de interfaces e HUD para jogos
 - Publicação de jogos para PC e Mobile
+  
+---
 
 ## ⚔️ Desafios Enfrentados
 
