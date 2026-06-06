@@ -528,14 +528,6 @@ Tela final exibida ao completar as 3 fases. Dois slides comemorativos temporizad
 
 ---
 
----
-
-## 📂 Documentação Completa
-
-A documentação completa estará na pasta `docs/` em breve
-
----
-
 ## 🛠️ Tecnologias
 
 - GDevelop 5 (JavaScript)
