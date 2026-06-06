@@ -145,8 +145,8 @@ Textos exibidos durante o gameplay em todas as fases:
 | Elemento | Posição | Função |
 |----------|---------|--------|
 | Vidas | Canto superior esquerdo | Vidas restantes |
-| Cronômetro | Centro superior | Tempo restante em segundos |
-| Meta | Canto superior direito | Lixo coletado / Total necessário |
+| Cronômetro | Canto superior esquerdo | Tempo restante em segundos |
+| Meta | Canto superior esquerdo | Lixo coletado / Total necessário |
 
 ![HUD](assets/objetos/hudfase1.png)  ![HUD](assets/objetos/hudfase2.png)  ![HUD](assets/objetos/hudfase3.png)
 
