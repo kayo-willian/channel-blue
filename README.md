@@ -8,7 +8,20 @@
 
 Jogo educacional 2D top-down desenvolvido no GDevelop 5
 
-> Desenvolvido de Maio a Junho de 2026.
+> Desenvolvido entre maio a junho de 2026.
+
+---
+## 📋 Índice
+
+- [Sobre o Jogo](#-sobre-o-jogo)
+- [Como Jogar](#-como-jogar)
+- [Controles](#️-controles)
+- [Personagens e Objetos](#-personagens-e-objetos)
+- [Comparativo das Fases](#-comparativo-das-3-fases)
+- [Tecnologias](#️-tecnologias)
+- [O que Aprendi](#-o-que-aprendi)
+- [Resultados do Projeto](#-resultados-do-projeto)
+- [Autor](#-autor)
 
 ---
 
@@ -20,6 +33,16 @@ Channel Blue é um espírito das águas que percorre três ecossistemas aquátic
 **Plataforma:** PC (Windows) e Mobile (Android)
 **Engine:** GDevelop 5
 **Tempo de gameplay:** ~15 minutos (3 fases de 5 min)
+
+---
+
+## 🎯 Como Jogar
+
+1. Mova Channel Blue pelo cenário usando as teclas direcionais ou joystick virtual.
+2. Colete o lixo que desce pelo ecossistema.
+3. Evite obstáculos e predadores — cada colisão custa uma vida.
+4. Complete a meta de coleta antes do tempo acabar.
+5. Restaure os três ecossistemas para vencer.
 
 ---
 
@@ -552,6 +575,40 @@ Tela final exibida ao completar as 3 fases. Dois slides comemorativos temporizad
 - Ideogram.ai — cenários
 - Canva Magic Media — interfaces
 - Freesound.org — efeitos sonoros
+
+---
+
+## 📚 O que Aprendi
+
+- Organização de projetos no GitHub
+- Estruturação de jogos em cenas e eventos no GDevelop
+- Criação de sistemas de fases com dificuldade progressiva
+- Documentação técnica de projetos
+- Controle de versões com Git
+- Desenvolvimento de jogos 2D top-down
+- Design de interfaces e HUD para jogos
+- Publicação de jogos para PC e Mobile
+
+---
+
+## 📊 Resultados do Projeto
+
+| Métrica | Resultado |
+|---------|-----------|
+| Cenas desenvolvidas | 12 |
+| Fases jogáveis | 3 |
+| Tempo de gameplay | ~15 minutos |
+| Plataformas | PC e Mobile |
+| Publicado em | [GD.games](https://gd.games/kayozkx/clean-it-up) |
+
+**Sistemas implementados:**
+- ✅ Coleta de lixo com metas por fase
+- ✅ Sistema de vidas
+- ✅ Cronômetro regressivo
+- ✅ Predadores com IA de perseguição
+- ✅ Correnteza (Fases 2 e 3)
+- ✅ Joystick virtual para Mobile
+- ✅ Telas de intro, transição e vitória
 
 ---
 
