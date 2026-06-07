@@ -12,7 +12,7 @@ Jogo educacional 2D top-down desenvolvido no GDevelop 5
 
 ## 📥 Download
 
-[![Download](https://img.shields.io/badge/Download-Windows-blue)](https://github.com/kayozkx/ChannelBlue/releases/latest)
+[![Download](https://img.shields.io/badge/Download-Windows-blue)](https://github.com/kayozkx/Channel-Blue/releases/latest)
 
 ---
 
