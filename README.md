@@ -595,8 +595,6 @@ Tela final exibida ao completar as 3 fases. Dois slides comemorativos temporizad
 | Interfaces | Canva Magic Media | HUD e menus |
 | Músicas | Suno.ai | Trilha sonora |
 | Efeitos sonoros | Freesound.org | Sons do gameplay |
-| Código e lógica | Claude (Anthropic) | Desenvolvimento dos eventos e mecânicas |
-| Prompt inicial | DeepSeek | Estrutura inicial do projeto |
 | Engine e ferramentas visuais | GDevelop 5 | Desenvolvimento, eventos, lógica e publicação do jogo |
 
 ---
