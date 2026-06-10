@@ -644,6 +644,8 @@ Tela final exibida ao completar as 3 fases. Dois slides comemorativos temporizad
 
 ## 💡 Inspirações
 
+- O nome "Channel Blue" foi inspirado no álbum "Channel Orange" de Frank Ocean
+- A conexão entre o nome "Ocean" do artista e os ecossistemas aquáticos do jogo tornou a referência ainda mais natural
 - Sempre tive vontade de criar um jogo e esse projeto foi minha primeira oportunidade de tornar isso realidade
 - Preocupação com a poluição dos ecossistemas aquáticos ao redor do mundo
 - Vontade de criar um jogo educacional acessível e divertido
