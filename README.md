@@ -601,11 +601,8 @@ Tela final exibida ao completar as 3 fases. Dois slides comemorativos temporizad
 
 ## 📚 O que Aprendi
 
-- Organização de projetos no GitHub
 - Estruturação de jogos em cenas e eventos no GDevelop
 - Criação de sistemas de fases com dificuldade progressiva
-- Documentação técnica de projetos
-- Controle de versões com Git
 - Desenvolvimento de jogos 2D top-down
 - Design de interfaces e HUD para jogos
 - Publicação de jogos para PC e Mobile
@@ -648,7 +645,7 @@ Tela final exibida ao completar as 3 fases. Dois slides comemorativos temporizad
 - A conexão entre o nome "Ocean" do artista e os ecossistemas aquáticos do jogo tornou a referência ainda mais natural
 - Sempre tive vontade de criar um jogo e esse projeto foi minha primeira oportunidade de tornar isso realidade
 - Preocupação com a poluição dos ecossistemas aquáticos ao redor do mundo
-- Vontade de criar um jogo educacional acessível e divertido
+- Vontade de criar um jogo acessível e divertido
 - Desejo de unir diversão e consciência ambiental em uma só experiência
 - Curiosidade em explorar o desenvolvimento de jogos do zero usando ferramentas modernas
 
