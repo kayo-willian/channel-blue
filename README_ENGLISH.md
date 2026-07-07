@@ -494,10 +494,6 @@ Shown when the player loses all lives or runs out of time in Stage 3. Has two bu
 
 Final screen shown after completing all 3 stages. Two timed celebration slides with triumphant music. After 11 seconds, shows the final screen with the logo and a button to return to the Menu.
 
-
-
-### Event Group: Victory
-
 ---
 
 ## 🎨 Credits
