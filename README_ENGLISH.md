@@ -488,17 +488,13 @@ Shown when the player loses all lives or runs out of time in Stage 3. Has two bu
 - **Restart** → goes directly back to Stage 3
 - **Menu** → returns to the Main Menu
 
-![Game Over 3](assets/cenas/fimjogo3.png)
-
 ---
 
 ## 🏆 Scene 12 — Victory
 
 Final screen shown after completing all 3 stages. Two timed celebration slides with triumphant music. After 11 seconds, shows the final screen with the logo and a button to return to the Menu.
 
-![Victory](assets/cenas/vitoria_slide1.png)
-![Victory](assets/cenas/vitoria_slide2.png)
-![Victory](assets/cenas/vitoria_slide3.png)
+
 
 ### Event Group: Victory
 
