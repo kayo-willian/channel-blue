@@ -242,29 +242,13 @@ Text displayed during gameplay across all stages:
 
 The game's first screen. Shows a sequence of 3 animated slides before automatically moving to the Main Menu.
 
-![Intro](assets/cenas/intro_slide1.png)
-
-![Intro](assets/cenas/intro_slide2.png)
-
-![Intro](assets/cenas/intro_slide3.png)
-
-### Event Group: Transition from Splash to Intro to Menu
-
-Three timed slides are displayed in sequence.
-
-![Intro Events](assets/eventos/intro/intro_eventos.png)
-
 ---
 
 ## 🏠 Scene 2 — Main Menu
 
 Starting screen with ambient music and a Play button. A 1-second delay (`DelayMenu`) prevents an accidental click from the previous scene from skipping ahead immediately.
 
-![Main Menu](assets/cenas/menu.png)
-
 ### Event Group: Main Menu
-
-![Menu Events](assets/eventos/menu/menu_eventos.png)
 
 ---
 
@@ -272,13 +256,7 @@ Starting screen with ambient music and a Play button. A 1-second delay (`DelayMe
 
 Shows 3 narrative slides telling Channel Blue's story and introducing the controls before entering Stage 1. Each slide is timed via `Timecontrole1`.
 
-![Stage 1 Transition](assets/cenas/transicao1_slide1.png)
 
-![Stage 1 Transition](assets/cenas/transicao1_slide2.png)
-
-![Stage 1 Transition](assets/cenas/transicao1_slide3(1).png)
-
-![Stage 1 Transition](assets/cenas/transicao1_slide4.png)
 
 ---
 
@@ -349,16 +327,6 @@ Shown when the player loses all lives or runs out of time in Stage 1. Has two bu
 ## 📜 Scene 6 — Stage 2 Transition
 
 Shows the presentation screen for Stage 2, titled "River: Dirty Current," before the stage begins. 3-second timer.
-
-![Stage 2 Transition](assets/cenas/transicao2_slide1.png)
-
-![Stage 2 Transition](assets/cenas/transicao2_slide2.png)
-
-![Stage 2 Transition](assets/cenas/transicao2_slide3.png)
-
-### Event Group: Stage 2 Transition
-
-![Stage 2 Transition Events](assets/eventos/transicao2/transicao2_eventos.png)
 
 ---
 
@@ -449,13 +417,6 @@ Shown when the player loses all lives or runs out of time in Stage 2. Has two bu
 
 Shows the presentation screen for Stage 3, titled "Sea: Plastic Abyss." 3-second timer.
 
-![Stage 3 Transition](assets/cenas/transicao3_slide1.png)
-
-![Stage 3 Transition](assets/cenas/transicao3_slide2.png)
-
-![Stage 3 Transition](assets/cenas/transicao3_slide3.png)
-
-
 ---
 
 ## 🌐 Scene 10 — Stage 3: Sea — Plastic Abyss
@@ -471,8 +432,6 @@ The hardest stage. Trash and obstacles at maximum speed (120px/s), a sea current
 ### 🔵 Initialization 3
 
 Goal of 35 trash items, epic music. Adds the Shark timer. Identical structure to previous stages, with maximum values.
-
-
 
 ---
 
