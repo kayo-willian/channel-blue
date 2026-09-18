@@ -242,13 +242,29 @@ Text displayed during gameplay across all stages:
 
 The game's first screen. Shows a sequence of 3 animated slides before automatically moving to the Main Menu.
 
+![Intro](assets/cenas/intro_slide1.png)
+
+![Intro](assets/cenas/intro_slide2.png)
+
+![Intro](assets/cenas/intro_slide3.png)
+
+### Event Group: Transition from Splash to Intro to Menu
+
+Three timed slides are displayed in sequence.
+
+![Intro Events](assets/eventos/intro/intro_eventos.png)
+
 ---
 
 ## 🏠 Scene 2 — Main Menu
 
 Starting screen with ambient music and a Play button. A 1-second delay (`DelayMenu`) prevents an accidental click from the previous scene from skipping ahead immediately.
 
+![Main Menu](assets/cenas/menu.png)
+
 ### Event Group: Main Menu
+
+![Menu Events](assets/eventos/menu/menu_eventos.png)
 
 ---
 
@@ -256,7 +272,17 @@ Starting screen with ambient music and a Play button. A 1-second delay (`DelayMe
 
 Shows 3 narrative slides telling Channel Blue's story and introducing the controls before entering Stage 1. Each slide is timed via `Timecontrole1`.
 
+![Stage 1 Transition](assets/cenas/transicao1_slide1.png)
 
+![Stage 1 Transition](assets/cenas/transicao1_slide2.png)
+
+![Stage 1 Transition](assets/cenas/transicao1_slide3(1).png)
+
+![Stage 1 Transition](assets/cenas/transicao1_slide4.png)
+
+### Event Group: Stage 1 Transition
+
+![Stage 1 Transition Events](assets/eventos/transicao1/transicao1_eventos.png)
 
 ---
 
@@ -274,11 +300,15 @@ The player begins their journey in a polluted, forgotten lake. Goal: collect 15 
 
 Sets all initial variables: score, lives, trash collected, goal, stage-finished flag, remaining time. Starts all timers and the music. Keeps the player within the screen boundaries.
 
+![Stage 1 — Initialization](assets/eventos/fase1/fase1_inicializacao.png)
+
 ---
 
 ### 🟡 Timer
 
 Calculates and displays remaining time by subtracting elapsed time from 300 seconds, using `TimerElapsedTime`.
+
+![Stage 1 — Timer](assets/eventos/fase1/fase1_cronometro.png)
 
 ---
 
@@ -286,11 +316,15 @@ Calculates and displays remaining time by subtracting elapsed time from 300 seco
 
 Spawns trash every 2 seconds and obstacles every 3 seconds at random positions at the top of the screen, with a constant downward force.
 
+![Stage 1 — Spawn](assets/eventos/fase1/fase1_spawn.png)
+
 ---
 
 ### ⚫ Screen Cleanup
 
 Removes trash (Y≥723) and obstacles (Y≥780) that go past the bottom screen boundary.
+
+![Stage 1 — Screen Cleanup](assets/eventos/fase1/fase1_limpeza.png)
 
 ---
 
@@ -298,17 +332,23 @@ Removes trash (Y≥723) and obstacles (Y≥780) that go past the bottom screen b
 
 Collision with trash: +1 toward the goal = +1 trash collected, plays a sound effect. Collision with obstacle: -1 life, obstacle deleted. If lives reach 0: Game Over.
 
+![Stage 1 — Collisions](assets/eventos/fase1/fase1_colisoes.png)
+
 ---
 
 ### 🟠 Stage Transition
 
 Upon reaching the 15-trash goal: background changes to a clean lake, objects are removed, a transition timer starts, and after 3 seconds the game moves to Stage 2. If time runs out: Game Over.
 
+![Stage 1 — Stage Transition](assets/eventos/fase1/fase1_transicao.png)
+
 ---
 
 ### 🟣 Predator — Alligator
 
 Actively chases the player with 120px/s force. Has a 3-second immunity window between hits. Sprite flips according to the player's direction.
+
+![Stage 1 — Alligator](assets/eventos/fase1/fase1_predador.png)
 
 ---
 
@@ -317,6 +357,12 @@ Actively chases the player with 120px/s force. Has a 3-second immunity window be
 Shown when the player loses all lives or runs out of time in Stage 1. Has two buttons:
 - **Restart** → goes directly back to Stage 1
 - **Menu** → returns to the Main Menu
+
+![Game Over 1](assets/cenas/fimjogo1.png)
+
+### Event Group: Game Over 1
+
+![Game Over 1 Events](assets/eventos/fimdejogo1/fimjogo1_eventos.png)
 
 ---
 
@@ -327,6 +373,16 @@ Shown when the player loses all lives or runs out of time in Stage 1. Has two bu
 ## 📜 Scene 6 — Stage 2 Transition
 
 Shows the presentation screen for Stage 2, titled "River: Dirty Current," before the stage begins. 3-second timer.
+
+![Stage 2 Transition](assets/cenas/transicao2_slide1.png)
+
+![Stage 2 Transition](assets/cenas/transicao2_slide2.png)
+
+![Stage 2 Transition](assets/cenas/transicao2_slide3.png)
+
+### Event Group: Stage 2 Transition
+
+![Stage 2 Transition Events](assets/eventos/transicao2/transicao2_eventos.png)
 
 ---
 
@@ -344,6 +400,7 @@ Increased difficulty with faster trash and obstacles. New mechanic: a constant 1
 
 Same structure as Stage 1 with different values: 4 lives, goal of 25, higher speeds. Adds the current timer and the Water Snake spawn.
 
+![Stage 2 — Initialization](assets/eventos/fase2/fase2_inicializacao.png)
 
 ---
 
@@ -351,7 +408,7 @@ Same structure as Stage 1 with different values: 4 lives, goal of 25, higher spe
 
 Same system as Stage 1 — displays remaining time in seconds.
 
-
+![Stage 2 — Timer](assets/eventos/fase2/fase2_cronometro.png)
 
 ---
 
@@ -359,7 +416,7 @@ Same system as Stage 1 — displays remaining time in seconds.
 
 Trash spawns every 1 second at 100px/s. Obstacles every 2 seconds. The current applies a constant force of 125px/s at 0° (rightward) on the player.
 
-
+![Stage 2 — Spawn](assets/eventos/fase2/fase2_spawn.png)
 
 ---
 
@@ -367,7 +424,7 @@ Trash spawns every 1 second at 100px/s. Obstacles every 2 seconds. The current a
 
 Removes trash (Y≥723) and obstacles (Y≥780).
 
-
+![Stage 2 — Screen Cleanup](assets/eventos/fase2/fase2_limpeza.png)
 
 ---
 
@@ -375,7 +432,7 @@ Removes trash (Y≥723) and obstacles (Y≥780).
 
 Same logic as Stage 1. Goal display updated to "/25". Obstacles within 400px of the player start chasing them.
 
-
+![Stage 2 — Collisions](assets/eventos/fase2/fase2_colisoes.png)
 
 ---
 
@@ -383,7 +440,7 @@ Same logic as Stage 1. Goal display updated to "/25". Obstacles within 400px of 
 
 Upon reaching 25 trash items: background changes to a clean river, the snake and objects are deleted, and the game moves to the Stage 3 transition after 3 seconds.
 
-
+![Stage 2 — Stage Transition](assets/eventos/fase2/fase2_transicao.png)
 
 ---
 
@@ -391,7 +448,7 @@ Upon reaching 25 trash items: background changes to a clean river, the snake and
 
 Chases at 140px/s — faster than the Alligator. Same immunity and sprite-flipping system.
 
-
+![Stage 2 — Water Snake](assets/eventos/fase2/fase2_predador.png)
 
 ---
 
@@ -401,11 +458,11 @@ Shown when the player loses all lives or runs out of time in Stage 2. Has two bu
 - **Restart** → goes directly back to Stage 2
 - **Menu** → returns to the Main Menu
 
-
+![Game Over 2](assets/cenas/fimjogo2.png)
 
 ### Event Group: Game Over 2
 
-
+![Game Over 2 Events](assets/eventos/fimdejogo2/fimjogo2_eventos.png)
 
 ---
 
@@ -416,6 +473,16 @@ Shown when the player loses all lives or runs out of time in Stage 2. Has two bu
 ## 📜 Scene 9 — Stage 3 Transition
 
 Shows the presentation screen for Stage 3, titled "Sea: Plastic Abyss." 3-second timer.
+
+![Stage 3 Transition](assets/cenas/transicao3_slide1.png)
+
+![Stage 3 Transition](assets/cenas/transicao3_slide2.png)
+
+![Stage 3 Transition](assets/cenas/transicao3_slide3.png)
+
+### Event Group: Final Transition
+
+![Stage 3 Transition Events](assets/eventos/transicao3/transicao3_eventos.png)
 
 ---
 
@@ -433,13 +500,15 @@ The hardest stage. Trash and obstacles at maximum speed (120px/s), a sea current
 
 Goal of 35 trash items, epic music. Adds the Shark timer. Identical structure to previous stages, with maximum values.
 
+![Stage 3 — Initialization](assets/eventos/fase3/fase3_inicializacao.png)
+
 ---
 
 ### 🟡 Timer 3
 
 Same system as the previous stages.
 
-
+![Stage 3 — Timer](assets/eventos/fase3/fase3_cronometro.png)
 
 ---
 
@@ -447,7 +516,7 @@ Same system as the previous stages.
 
 Trash every 0.8 seconds at 100px/s. Obstacles every 2 seconds at 100px/s. Current at 140px/s. All obstacles within 400px chase the player.
 
-
+![Stage 3 — Spawn](assets/eventos/fase3/fase3_spawn.png)
 
 ---
 
@@ -455,7 +524,7 @@ Trash every 0.8 seconds at 100px/s. Obstacles every 2 seconds at 100px/s. Curren
 
 Removes trash (Y≥723) and obstacles (Y≥780).
 
-
+![Stage 3 — Screen Cleanup](assets/eventos/fase3/fase3_limpeza.png)
 
 ---
 
@@ -463,7 +532,7 @@ Removes trash (Y≥723) and obstacles (Y≥780).
 
 Same logic. Goal display updated to "/35".
 
-
+![Stage 3 — Collisions](assets/eventos/fase3/fase3_colisoes.png)
 
 ---
 
@@ -471,6 +540,7 @@ Same logic. Goal display updated to "/35".
 
 Upon reaching 35 trash items: background changes to a clean ocean, and after 3 seconds the game moves to the Victory screen.
 
+![Stage 3 — Stage Transition](assets/eventos/fase3/fase3_transicao.png)
 
 ---
 
@@ -478,7 +548,7 @@ Upon reaching 35 trash items: background changes to a clean ocean, and after 3 s
 
 The most dangerous predator. 160px/s, persists on screen as a constant threat. Size 150x100px. Same immunity and sprite-flipping system.
 
-
+![Stage 3 — Shark](assets/eventos/fase3/fase3_predador.png)
 
 ---
 
@@ -488,11 +558,25 @@ Shown when the player loses all lives or runs out of time in Stage 3. Has two bu
 - **Restart** → goes directly back to Stage 3
 - **Menu** → returns to the Main Menu
 
+![Game Over 3](assets/cenas/fimjogo3.png)
+
+### Event Group: Game Over 3
+
+![Game Over 3 Events](assets/eventos/fimdejogo3/fimjogo3_eventos.png)
+
 ---
 
 ## 🏆 Scene 12 — Victory
 
 Final screen shown after completing all 3 stages. Two timed celebration slides with triumphant music. After 11 seconds, shows the final screen with the logo and a button to return to the Menu.
+
+![Victory](assets/cenas/vitoria_slide1.png)
+![Victory](assets/cenas/vitoria_slide2.png)
+![Victory](assets/cenas/vitoria_slide3.png)
+
+### Event Group: Victory
+
+![Victory Events](assets/eventos/vitoria/vitoria_eventos.png)
 
 ---
 
